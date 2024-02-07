@@ -1,0 +1,175 @@
+ls: cannot access 'genomes/*.fna': No such file or directory
+rm: cannot remove 'LSU_intermediate.fa': No such file or directory
+/var/spool/slurmd/job1701273/slurm_script: line 46: aln_ITS/aln_ITS/rhodotorula_sp_vb21.sorted_ITS_full.fas: No such file or directory
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+Warning: Only 1 sequence found.
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+Determining smart-gap threshold...
+
+-------------
+| Arguments |
+-------------
+Input file: aln_LSU/ALL_LSU_full.fasaln (format: fasta)
+Output file: aln_LSU/ALL_LSU_full.fasaln.clipkit (format: fasta)
+Gaps threshold: 1
+Trimming mode: smart-gap
+Create complementary output: False
+Create log file: False
+
+
+------------------------
+| Processing Alignment |
+------------------------
+
+  0%|          | 0/785 [00:00<?, ?it/s]100%|██████████| 785/785 [00:00<00:00, 125904.50it/s]
+
+
+------------------------
+| Writing output files |
+------------------------
+trimmed alignment: aln_LSU/ALL_LSU_full.fasaln.clipkit
+complement file: False
+log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Number of sites kept: 785
+Number of sites trimmed: 0
+
+Percentage of alignment trimmed: 0.0%
+
+Execution time: 0.202s
+
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i04 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -nt AUTO -s aln_LSU/ALL_LSU_full.fasaln.clipkit -alrt 1000 -bb 1000 -m MFP
+Seed:    866630 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb  6 17:19:51 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file aln_LSU/ALL_LSU_full.fasaln.clipkit ... Fasta format detected
+Reading fasta file: done in 0.000144005 secs using 27.78% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00153279 secs using 675.2% CPU
+ERROR: Alignment must have at least 3 sequences
+cat: aln_ITS/rhodotorula_sp_vb21.sorted_ITS_full.fas: No such file or directory
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 14
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 14   10 / 14
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 13  fSTEP     2 / 13  fSTEP     3 / 13  fSTEP     4 / 13  fSTEP     5 / 13  fSTEP     6 / 13  fSTEP     7 / 13  fSTEP     8 / 13  fSTEP     9 / 13  fSTEP    10 / 13  fSTEP    11 / 13  fSTEP    12 / 13  fSTEP    13 / 13  f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 14
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 14   10 / 14
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 13  fSTEP     2 / 13  fSTEP     3 / 13  fSTEP     4 / 13  fSTEP     5 / 13  fSTEP     6 / 13  fSTEP     7 / 13  fSTEP     8 / 13  fSTEP     9 / 13  fSTEP    10 / 13  fSTEP    11 / 13  fSTEP    12 / 13  fSTEP    13 / 13  f
+done.
+
+disttbfast (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+Determining smart-gap threshold...
+
+-------------
+| Arguments |
+-------------
+Input file: aln_ITS/ALL_ITS.fasaln (format: fasta)
+Output file: aln_ITS/ALL_ITS.fasaln.clipkit (format: fasta)
+Gaps threshold: 0.9286
+Trimming mode: smart-gap
+Create complementary output: False
+Create log file: False
+
+
+------------------------
+| Processing Alignment |
+------------------------
+
+  0%|          | 0/831 [00:00<?, ?it/s]100%|██████████| 831/831 [00:00<00:00, 45325.25it/s]
+
+
+------------------------
+| Writing output files |
+------------------------
+trimmed alignment: aln_ITS/ALL_ITS.fasaln.clipkit
+complement file: False
+log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Number of sites kept: 661
+Number of sites trimmed: 170
+
+Percentage of alignment trimmed: 20.457%
+
+Execution time: 0.046s
+
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i04 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -nt AUTO -s aln_ITS/ALL_ITS_full.fasaln.clipkit -alrt 1000 -bb 1000 -m MFP
+Seed:    737842 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb  6 17:19:52 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file aln_ITS/ALL_ITS_full.fasaln.clipkit ... ERROR: File not found aln_ITS/ALL_ITS_full.fasaln.clipkit

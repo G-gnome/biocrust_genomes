@@ -1,0 +1,65 @@
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes/BUSCO /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes
+2024-01-15 17:35:45 INFO:	***** Start a BUSCO v5.5.0 analysis, current time: 01/15/2024 17:35:45 *****
+2024-01-15 17:35:45 INFO:	Configuring BUSCO with local environment
+2024-01-15 17:35:45 INFO:	Mode is genome
+2024-01-15 17:35:45 INFO:	Input file is /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes/asm/AAFTF/rhodotorula_sp_vb21.sorted.fasta
+2024-01-15 17:35:45 INFO:	Using local lineages directory /bigdata/operations/pkgadmin/srv/projects/db/BUSCO/v10/lineages/fungi_odb10
+2024-01-15 17:35:45 INFO:	Running BUSCO using lineage dataset fungi_odb10 (eukaryota, 2020-09-10)
+2024-01-15 17:35:45 INFO:	Running 1 job(s) on bbtools, starting at 01/15/2024 17:35:45
+2024-01-15 17:35:47 INFO:	[bbtools]	1 of 1 task(s) completed
+2024-01-15 17:35:47 INFO:	Running 1 job(s) on metaeuk, starting at 01/15/2024 17:35:47
+2024-01-15 17:41:29 INFO:	[metaeuk]	1 of 1 task(s) completed
+2024-01-15 17:41:35 INFO:	***** Run HMMER on gene sequences *****
+2024-01-15 17:41:35 INFO:	Running 758 job(s) on hmmsearch, starting at 01/15/2024 17:41:35
+2024-01-15 17:41:38 INFO:	[hmmsearch]	76 of 758 task(s) completed
+2024-01-15 17:41:40 INFO:	[hmmsearch]	152 of 758 task(s) completed
+2024-01-15 17:41:42 INFO:	[hmmsearch]	228 of 758 task(s) completed
+2024-01-15 17:41:43 INFO:	[hmmsearch]	304 of 758 task(s) completed
+2024-01-15 17:41:47 INFO:	[hmmsearch]	379 of 758 task(s) completed
+2024-01-15 17:41:48 INFO:	[hmmsearch]	455 of 758 task(s) completed
+2024-01-15 17:41:49 INFO:	[hmmsearch]	531 of 758 task(s) completed
+2024-01-15 17:41:50 INFO:	[hmmsearch]	607 of 758 task(s) completed
+2024-01-15 17:41:51 INFO:	[hmmsearch]	683 of 758 task(s) completed
+2024-01-15 17:41:56 INFO:	[hmmsearch]	758 of 758 task(s) completed
+2024-01-15 17:42:06 INFO:	Validating exons and removing overlapping matches
+2024-01-15 17:42:11 INFO:	3 candidate overlapping regions found
+2024-01-15 17:42:11 INFO:	3755 exons in total
+2024-01-15 17:42:15 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
+2024-01-15 17:42:28 INFO:	Running 1 job(s) on metaeuk, starting at 01/15/2024 17:42:28
+2024-01-15 17:47:13 INFO:	[metaeuk]	1 of 1 task(s) completed
+2024-01-15 17:47:16 INFO:	***** Run HMMER on gene sequences *****
+2024-01-15 17:47:16 INFO:	Running 106 job(s) on hmmsearch, starting at 01/15/2024 17:47:16
+2024-01-15 17:47:17 INFO:	[hmmsearch]	11 of 106 task(s) completed
+2024-01-15 17:47:17 INFO:	[hmmsearch]	22 of 106 task(s) completed
+2024-01-15 17:47:17 INFO:	[hmmsearch]	32 of 106 task(s) completed
+2024-01-15 17:47:17 INFO:	[hmmsearch]	43 of 106 task(s) completed
+2024-01-15 17:47:17 INFO:	[hmmsearch]	53 of 106 task(s) completed
+2024-01-15 17:47:18 INFO:	[hmmsearch]	64 of 106 task(s) completed
+2024-01-15 17:47:18 INFO:	[hmmsearch]	75 of 106 task(s) completed
+2024-01-15 17:47:18 INFO:	[hmmsearch]	85 of 106 task(s) completed
+2024-01-15 17:47:18 INFO:	[hmmsearch]	96 of 106 task(s) completed
+2024-01-15 17:47:18 INFO:	[hmmsearch]	106 of 106 task(s) completed
+2024-01-15 17:47:28 INFO:	Validating exons and removing overlapping matches
+2024-01-15 17:47:33 INFO:	3 candidate overlapping regions found
+2024-01-15 17:47:33 INFO:	3660 exons in total
+2024-01-15 17:47:39 INFO:	Results:	C:88.0%[S:87.5%,D:0.5%],F:2.5%,M:9.5%,n:758	   
+
+2024-01-15 17:47:47 INFO:	
+
+	---------------------------------------------------
+	|Results from dataset fungi_odb10                  |
+	---------------------------------------------------
+	|C:88.0%[S:87.5%,D:0.5%],F:2.5%,M:9.5%,n:758       |
+	|667	Complete BUSCOs (C)                        |
+	|663	Complete and single-copy BUSCOs (S)        |
+	|4	Complete and duplicated BUSCOs (D)         |
+	|19	Fragmented BUSCOs (F)                      |
+	|72	Missing BUSCOs (M)                         |
+	|758	Total BUSCO groups searched                |
+	---------------------------------------------------
+2024-01-15 17:47:47 INFO:	BUSCO analysis done. Total running time: 722 seconds
+2024-01-15 17:47:47 INFO:	Results written in /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes/BUSCO/rhodotorula_sp_vb21
+2024-01-15 17:47:47 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2024-01-15 17:47:47 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes

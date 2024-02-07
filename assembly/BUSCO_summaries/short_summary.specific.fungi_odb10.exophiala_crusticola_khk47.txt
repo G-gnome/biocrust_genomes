@@ -1,0 +1,30 @@
+# BUSCO version is: 5.4.4 
+# The lineage dataset is: fungi_odb10 (Creation date: 2020-09-10, number of genomes: 549, number of BUSCOs: 758)
+# Summarized benchmarking in BUSCO notation for file /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes/asm/AAFTF/exophiala_crusticola_khk47.sorted.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:99.3%[S:98.8%,D:0.5%],F:0.4%,M:0.3%,n:758	   
+	753	Complete BUSCOs (C)			   
+	749	Complete and single-copy BUSCOs (S)	   
+	4	Complete and duplicated BUSCOs (D)	   
+	3	Fragmented BUSCOs (F)			   
+	2	Missing BUSCOs (M)			   
+	758	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	821	Number of scaffolds
+	859	Number of contigs
+	28839974	Total length
+	0.010%	Percent gaps
+	1 MB	Scaffold N50
+	638 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.4.4

@@ -1,0 +1,30 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: fungi_odb10 (Creation date: 2020-09-10, number of genomes: 549, number of BUSCOs: 758)
+# Summarized benchmarking in BUSCO notation for file /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes/asm/AAFTF/rhodotorula_sp_vb21.sorted.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:88.0%[S:87.5%,D:0.5%],F:2.5%,M:9.5%,n:758	   
+	667	Complete BUSCOs (C)			   
+	663	Complete and single-copy BUSCOs (S)	   
+	4	Complete and duplicated BUSCOs (D)	   
+	19	Fragmented BUSCOs (F)			   
+	72	Missing BUSCOs (M)			   
+	758	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	661	Number of scaffolds
+	762	Number of contigs
+	24141684	Total length
+	0.014%	Percent gaps
+	96 KB	Scaffold N50
+	76 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.5.0

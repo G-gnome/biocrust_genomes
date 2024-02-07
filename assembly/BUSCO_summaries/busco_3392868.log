@@ -1,0 +1,21 @@
+2024-01-15 19:08:24 INFO:__main__	****************** Start plot generation at 01/15/2024 19:08:24 ******************
+2024-01-15 19:08:24 INFO:__main__	Load data ...
+2024-01-15 19:08:24 INFO:__main__	Loaded BUSCO_summaries/short_summary.specific.fungi_odb10.exophiala_crusticola_khk47.txt successfully
+2024-01-15 19:08:24 INFO:__main__	Loaded BUSCO_summaries/short_summary.specific.fungi_odb10.rhodotorula_sp_vb21.txt successfully
+2024-01-15 19:08:24 INFO:__main__	Loaded BUSCO_summaries/short_summary.specific.fungi_odb10.coniochaeta_sp_jdc7.txt successfully
+2024-01-15 19:08:24 INFO:__main__	Generate the R code ...
+2024-01-15 19:08:24 INFO:__main__	Run the R code ...
+2024-01-15 19:08:35 INFO:__main__	
+[1] "Plotting the figure ..."
+[1] "Done"
+
+2024-01-15 19:08:35 ERROR:__main__	
+Warning message:
+package ‘ggplot2’ was built under R version 4.2.3 
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+
+2024-01-15 19:08:35 INFO:__main__	Plot generation done. Total running time: 11.773976802825928 seconds
+2024-01-15 19:08:35 INFO:__main__	Results written in BUSCO_summaries/
+

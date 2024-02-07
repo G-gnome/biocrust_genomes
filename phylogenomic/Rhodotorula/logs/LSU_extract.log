@@ -1,0 +1,47 @@
+Loading [1msamtools/1.18[22m
+  [94mLoading requirement[0m: libdeflate/1.17 htslib/1.18
+ls: cannot access 'genomes/*.fna': No such file or directory
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/barrnap/0.9/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /opt/linux/rocky/8.x/x86_64/pkgs/barrnap/0.9/bin/nhmmer
+[barrnap] Found bedtools - /opt/linux/rocky/8.x/x86_64/pkgs/barrnap/0.9/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-06
+[barrnap] Will tag genes < 0.8 of expected length.
+[barrnap] Will reject genes < 0.25 of expected length.
+[barrnap] Using database: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/barrnap/0.9/lib/barrnap/bin/../db/euk.hmm
+[barrnap] Scanning genomes/rhodotorula_sp_vb21.sorted.fasta for euk rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-06 --w_length 3878 -o /dev/null --tblout /dev/stdout '/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/barrnap/0.9/lib/barrnap/bin/../db/euk.hmm' 'genomes/rhodotorula_sp_vb21.sorted.fasta'
+[barrnap] Found: 18S_rRNA scaffold_450 L=1803/1869 951..2753 + 18S ribosomal RNA
+[barrnap] Found: 18S_rRNA scaffold_416 L=873/1869 3664..4536 - 18S ribosomal RNA (partial)
+[barrnap] Found: 18S_rRNA scaffold_412 L=640/1869 598..1237 - 18S ribosomal RNA (partial)
+[barrnap] Found: 28S_rRNA scaffold_490 L=1967/2912 11..1977 + 28S ribosomal RNA (partial)
+[barrnap] Rejecting short 726 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Rejecting short 540 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Found: 28S_rRNA scaffold_416 L=1000/2912 252..1251 - 28S ribosomal RNA (partial)
+[barrnap] Rejecting short 601 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Found: 28S_rRNA scaffold_412 L=1039/2912 3797..4835 + 28S ribosomal RNA (partial)
+[barrnap] Rejecting short 253 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Rejecting short 725 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Rejecting short 360 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Rejecting short 154 nt predicted 28S_rRNA. Adjust via --reject option.
+[barrnap] Found: 5S_rRNA scaffold_561 L=114/119 738..851 + 5S ribosomal RNA
+[barrnap] Found: 5_8S_rRNA scaffold_450 L=152/156 2906..3057 + 5.8S ribosomal RNA
+[barrnap] Found 8 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: results/LSU/rhodotorula_sp_vb21.sorted/rrna.fasta
+[barrnap] Running: bedtools getfasta -s -name+ -fo 'results/LSU/rhodotorula_sp_vb21.sorted/rrna.fasta' -fi 'genomes/rhodotorula_sp_vb21.sorted.fasta' -bed '/scratch/kkell060/1375635/gBPvO85TYt'
+##gff-version 3
+scaffold_412	barrnap:0.9	rRNA	598	1237	5.5e-30	-	.	Name=18S_rRNA;product=18S ribosomal RNA (partial);note=aligned only 34 percent of the 18S ribosomal RNA
+scaffold_412	barrnap:0.9	rRNA	3797	4835	1.3e-48	+	.	Name=28S_rRNA;product=28S ribosomal RNA (partial);note=aligned only 35 percent of the 28S ribosomal RNA
+scaffold_416	barrnap:0.9	rRNA	252	1251	5.1e-75	-	.	Name=28S_rRNA;product=28S ribosomal RNA (partial);note=aligned only 34 percent of the 28S ribosomal RNA
+scaffold_416	barrnap:0.9	rRNA	3664	4536	2.1e-85	-	.	Name=18S_rRNA;product=18S ribosomal RNA (partial);note=aligned only 46 percent of the 18S ribosomal RNA
+scaffold_450	barrnap:0.9	rRNA	951	2753	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+scaffold_450	barrnap:0.9	rRNA	2906	3057	7.7e-36	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+scaffold_490	barrnap:0.9	rRNA	11	1977	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA (partial);note=aligned only 67 percent of the 28S ribosomal RNA
+scaffold_561	barrnap:0.9	rRNA	738	851	1e-13	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+[barrnap] Done.

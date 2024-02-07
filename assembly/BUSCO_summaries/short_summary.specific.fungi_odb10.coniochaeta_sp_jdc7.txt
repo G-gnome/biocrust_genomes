@@ -1,0 +1,30 @@
+# BUSCO version is: 5.4.4 
+# The lineage dataset is: fungi_odb10 (Creation date: 2020-09-10, number of genomes: 549, number of BUSCOs: 758)
+# Summarized benchmarking in BUSCO notation for file /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes/asm/AAFTF/coniochaeta_sp_jdc7.sorted.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:98.8%[S:98.8%,D:0.0%],F:0.3%,M:0.9%,n:758	   
+	749	Complete BUSCOs (C)			   
+	749	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	2	Fragmented BUSCOs (F)			   
+	7	Missing BUSCOs (M)			   
+	758	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	2643	Number of scaffolds
+	2880	Number of contigs
+	31516318	Total length
+	0.008%	Percent gaps
+	858 KB	Scaffold N50
+	473 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.4.4

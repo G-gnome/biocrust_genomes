@@ -1,0 +1,12 @@
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Cystobasidium_sp._DBVPG10075.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Cystobasidium_sp._R3.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_araucariae_Y17376.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_dairenensis_Y2504.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_diobovata_Y7196.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_evergladensis_DBVPG7922.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_graminis_Y2474.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_mucilaginosa_JGTA-S1.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_mucilaginosa_Y2510.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_paludigena_Y12923.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_sp._DBVPG7947.sorted.fasta
+/bigdata/stajichlab/shared/projects/Rhodotorula/Ref_genomes/final_genomes/Rhodotorula_sphaerocarpa_Y7192.sorted.fasta

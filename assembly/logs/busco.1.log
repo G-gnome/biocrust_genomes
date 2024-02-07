@@ -1,0 +1,10 @@
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes/BUSCO /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes
+2024-01-15 17:35:39 INFO:	***** Start a BUSCO v5.5.0 analysis, current time: 01/15/2024 17:35:39 *****
+2024-01-15 17:35:39 INFO:	Configuring BUSCO with local environment
+2024-01-15 17:35:39 INFO:	Mode is genome
+2024-01-15 17:35:39 ERROR:	A run with the name /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes/BUSCO/coniochaeta_sp_jdc7 already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2024-01-15 17:35:39 ERROR:	BUSCO analysis failed!
+2024-01-15 17:35:39 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/yeast_genomes
