@@ -1,0 +1,2 @@
+tree/ALL_ITS_rename.fasaln.clipkit
+tree/ALL_LSU_rename.fasaln.clipkit

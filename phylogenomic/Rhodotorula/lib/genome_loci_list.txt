@@ -1,0 +1,1 @@
+rhodotorula_sp_vb21.sorted.fasta	lib/Rhodo_LSU.fasta	lib/Rhodo_ITS.fasta	results/LSU/LSU_scaffolds.fasta	results/ITS/ITSx.full.fasta

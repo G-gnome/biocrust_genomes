@@ -13,14 +13,16 @@ ITS=aln_ITS/ALL_ITS_full.fasaln.clipkit
 ITS_out=tree/ALL_ITS_rename.fasaln.clipkit
 LSU=aln_LSU/ALL_LSU_full.fasaln.clipkit
 LSU_out=tree/ALL_LSU_rename.fasaln.clipkit
+speciesname=Rhodotorula_vb21
 
 
 # Alignment
 
-python rename_underscore.py $ITS $ITS_out
-python rename_underscore.py $LSU $LSU_out
+#note: replaces the species of interest name with speciesname variable. Works only on one species, can't do if there are multiple species of interest. 
+python rename_underscore.py $ITS $ITS_out $speciesname
+python rename_underscore.py $LSU $LSU_out $speciesname
 
-phykit create_concat -a alignmentlist.txt -p concatenated_output
+phykit create_concat -a alignmentlist.txt -p concatenated_output 
 
 mv concatenated* tree
 
