@@ -1,0 +1,70 @@
+Merge Report:
+Rhodotorula taiwanensis:
+  ITS Length: 611
+  LSU Length: 915
+  Combined Length: 1526
+
+Rhodotorula ngohengohe:
+  ITS Length: 605
+  LSU Length: 901
+  Combined Length: 1506
+
+Rhodotorula mucilaginosa:
+  ITS Length: 620
+  LSU Length: 600
+  Combined Length: 1220
+
+Rhodotorula diobovata:
+  ITS Length: 622
+  LSU Length: 604
+  Combined Length: 1226
+
+Rhodotorula glutinis:
+  ITS Length: 610
+  LSU Length: 1350
+  Combined Length: 1960
+
+Rhodotorula paludigena:
+  ITS Length: 609
+  LSU Length: 603
+  Combined Length: 1212
+
+Rhodotorula mackellarae: LSU sequence not found
+Rhodotorula araucariae:
+  ITS Length: 608
+  LSU Length: 639
+  Combined Length: 1247
+
+Rhodotorula frigidialcoholis: LSU sequence not found
+Rhodotorula dairenensis: ITS sequence not found
+Rhodotorula babjevae:
+  ITS Length: 611
+  LSU Length: 604
+  Combined Length: 1215
+
+Rhodotorula kratochvilovae:
+  ITS Length: 606
+  LSU Length: 604
+  Combined Length: 1210
+
+Rhodotorula sphaerocarpa:
+  ITS Length: 616
+  LSU Length: 601
+  Combined Length: 1217
+
+Rhodotorula evergladensis:
+  ITS Length: 540
+  LSU Length: 604
+  Combined Length: 1144
+
+Rhodotorula graminis:
+  ITS Length: 612
+  LSU Length: 604
+  Combined Length: 1216
+
+Rhodotorula toruloides: LSU sequence not found
+Rhodotorula alborubescens:
+  ITS Length: 570
+  LSU Length: 590
+  Combined Length: 1160
+

@@ -1,0 +1,4 @@
+Loading [1msamtools/1.19.2[22m
+  [94mLoading requirement[0m: libdeflate/1.17 htslib/1.19.1
+ls: cannot access 'genomes/*.fna': No such file or directory
+Processing genomes/coniochaeta_sp_jdc7.sorted.fasta, top hit: scaffold_68

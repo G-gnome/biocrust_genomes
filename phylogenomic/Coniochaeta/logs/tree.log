@@ -1,0 +1,433 @@
+Description: coniochaeta_sp_jdc7.sorted_scaffold_68|F fungi ITS sequence (491 bp) on complementary strand
+Description: NR_189971.1 Coniochaeta rankiniae BRIP 74950a ITS region; from TYPE material
+Description: NR_185589.1 Coniochaeta caraganae MFLUCC 18-0780 ITS region; from TYPE material
+Description: NR_177572.1 Coniochaeta elegans ARIZ FF0093 ITS region; from TYPE material
+Description: NR_177571.1 Coniochaeta nivea ARIZ AK0926 ITS region; from TYPE material
+Description: NR_175055.1 Coniochaeta cymbiformispora NBRC 32199 ITS region; from TYPE material
+Description: NR_173009.1 Coniochaeta deborreae CBS 147215 ITS region; from TYPE material
+Description: NR_172554.1 Coniochaeta rhopalochaeta CBS 109872 ITS region; from TYPE material
+Description: NR_168225.1 Coniochaeta vineae KUMCC 17-0322 ITS region; from TYPE material
+Description: NR_167688.1 Coniochaeta hoffmannii CBS 245.38 ITS region; from TYPE material
+Description: NR_164024.1 Coniochaeta simbalensis NFCCI 4236 ITS region; from TYPE material
+Description: NR_159779.1 Coniochaeta discoidea CBS 158.80 ITS region; from TYPE material
+Description: NR_159776.1 Coniochaeta boothii CBS 381.74 ITS region; from TYPE material
+Description: NR_159774.1 Coniochaeta verticillata CBS 816.71 ITS region; from TYPE material
+Description: NR_159772.1 Coniochaeta ostrea CBS 507.70 ITS region; from TYPE material
+Description: NR_121521.1 Coniochaeta gigantospora ILLS 60816 ITS region; from TYPE material
+Description: NR_121473.1 Coniochaeta polymorpha CBS 132722 ITS region; from TYPE material
+Description: NR_120211.1 Coniochaeta canina UTHSC 11-2460 ITS region; from TYPE material
+Description: NR_111520.1 Coniochaeta lignicola CBS 267.33 ITS region; from TYPE material
+Description: NR_111519.1 Coniochaeta mutabilis CBS 157.44 ITS region; from TYPE material
+Description: NR_111517.1 Coniochaeta cateniformis UTHSC 01-1644 ITS region; from TYPE material
+Description: NR_154808.1 Coniochaeta navarrae CBS 141016 ITS region; from TYPE material
+Description: NR_157509.1 Coniochaeta rosae TASM 6127 ITS region; from TYPE material
+Description: NR_157508.1 Coniochaeta baysunika TASM 6131 ITS region; from TYPE material
+Description: NR_157478.1 Coniochaeta cipronana CBS 144016 ITS region; from TYPE material
+Description: NR_154770.1 Coniochaeta fasciculata CBS 205.38 ITS region; from TYPE material
+Description: NR_154769.1 Coniochaeta luteoviridis CBS 206.38 ITS region; from TYPE material
+Description: NR_144912.1 Coniochaeta decumbens CBS 153.42 ITS region; from TYPE material
+Description: NR_137725.1 Coniochaeta africana ITS region; from TYPE material
+Description: NR_137037.1 Coniochaeta prunicola ITS region; from TYPE material
+Description: NR_171740.1 Chaetosphaeria ciliata CBS 122132 ITS region; from TYPE material
+FASTA headers renamed. Output saved to tree/ALL_ITS_rename.fasaln.clipkit
+Description: coniochaeta_sp_jdc7.sorted_scaffold_68
+Description: NG_242134.1 Coniochaeta rankiniae BRIP 74950a 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_228849.1 Coniochaeta caraganae MFLUCC 18-0780 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_076709.1 Coniochaeta deborreae CBS 147215 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_075158.1 Coniochaeta endophytica ARIZ AEA 9094 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_068555.1 Coniochaeta simbalensis NFCCI 4236 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_067348.1 Coniochaeta luteoviridis CBS 206.38 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_067344.1 Coniochaeta lignicola CBS 267.33 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_067257.1 Coniochaeta decumbens CBS 153.42 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_066204.1 Coniochaeta rosae TASM 6127 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_066151.1 Coniochaeta prunicola 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_066150.1 Coniochaeta africana 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_064287.1 Coniochaeta fodinicola CBS 136963 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_064120.1 Coniochaeta discoidea CBS 158.80 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_064080.1 Coniochaeta ostrea CBS 507.70 28S rRNA gene, partial sequence; from TYPE material
+Description: NG_042720.1 Coniochaeta canina UTHSC 11-2460 28S rRNA, partial sequence; from TYPE material
+Description: NG_042382.1 Coniochaeta mutabilis CBS 157.44 28S rRNA, partial sequence; from TYPE material
+Description: NG_067452.1 Chaetosphaeria ciliata CBS 122131 28S rRNA gene, partial sequence; from TYPE material
+FASTA headers renamed. Output saved to tree/ALL_LSU_rename.fasaln.clipkit
+
+--------------------
+| General features |
+--------------------
+Total number of taxa: 34
+Total number of alignments: 2
+
+
+----------------
+| Output files |
+----------------
+Partition file output: concatenated_output.partition
+Concatenated fasta output: concatenated_output.fa
+Occupancy report: concatenated_output.occupancy
+
+Complete!
+
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    c40 (AVX, FMA3, 503 GB RAM)
+Command: iqtree2 -nt AUTO -s tree/concatenated_output.fa -alrt 1000 -bb 1000 -m MFP
+Seed:    285114 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Feb 12 14:53:16 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file tree/concatenated_output.fa ... Fasta format detected
+Reading fasta file: done in 0.001513 secs using 95.84% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00550413 secs using 668.4% CPU
+Alignment has 34 sequences with 1808 columns, 509 distinct patterns
+212 parsimony-informative, 292 singleton sites, 1304 constant sites
+                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000191927 secs using 680.5% CPU
+   1  Chaetosphaeria_ciliata        22.01%    passed     72.84%
+   2  Coniochaeta_JDC7              37.17%    passed     16.33%
+   3  Coniochaeta_africana          38.77%    passed     98.13%
+   4  Coniochaeta_baysunika         68.31%    passed     58.91%
+   5  Coniochaeta_boothii           73.34%    passed     35.95%
+   6  Coniochaeta_canina            34.68%    passed     89.89%
+   7  Coniochaeta_caraganae         21.68%    passed     87.09%
+   8  Coniochaeta_cateniformis      72.73%    passed     24.37%
+   9  Coniochaeta_cipronana         67.20%    passed     75.97%
+  10  Coniochaeta_cymbiformispora   66.65%    passed     69.50%
+  11  Coniochaeta_deborreae         24.61%    passed     72.22%
+  12  Coniochaeta_decumbens         42.09%    passed     96.52%
+  13  Coniochaeta_discoidea         23.45%    passed     94.52%
+  14  Coniochaeta_elegans           75.94%    passed     52.68%
+  15  Coniochaeta_endophytica       38.99%    passed     28.76%
+  16  Coniochaeta_fasciculata       72.90%    passed     38.67%
+  17  Coniochaeta_fodinicola        55.92%    passed     30.93%
+  18  Coniochaeta_gigantospora      63.88%    passed     74.86%
+  19  Coniochaeta_hoffmannii        63.44%    passed     60.24%
+  20  Coniochaeta_lignicola         24.17%    passed     80.71%
+  21  Coniochaeta_luteoviridis      23.62%    passed     86.17%
+  22  Coniochaeta_mutabilis         39.66%    passed     95.16%
+  23  Coniochaeta_navarrae          64.10%    passed     49.92%
+  24  Coniochaeta_nivea             75.94%    passed     60.63%
+  25  Coniochaeta_ostrea            10.62%    passed     10.26%
+  26  Coniochaeta_polymorpha        66.37%    passed     73.46%
+  27  Coniochaeta_prunicola         38.83%    passed     95.00%
+  28  Coniochaeta_rankiniae         20.41%    passed     73.72%
+  29  Coniochaeta_rhopalochaeta     69.97%    passed     35.63%
+  30  Coniochaeta_rosae             20.19%    passed     87.85%
+  31  Coniochaeta_simbalensis       20.41%    passed     58.85%
+  32  Coniochaeta_verticillata      71.79%    passed     37.91%
+  33  Coniochaeta_vineae            72.57%    passed     66.54%
+  34  fungi_ITS                     72.90%    passed     19.39%
+WARNING: 17 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                         48.69%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.000313044 secs using 700.9% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+209 trees examined
+Threads: 1 / Time: 16.023 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -8934
+Threads: 2 / Time: 13.004 sec / Speedup: 1.232 / Efficiency: 62% / LogL: -8934
+Threads: 3 / Time: 11.325 sec / Speedup: 1.415 / Efficiency: 47% / LogL: -8934
+Determining AUTO threadcount: done in 40.3577 secs using 191.1% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.162109 secs using 198.8% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -7441.291
+Optimal log-likelihood: -7440.404
+Rate parameters:  A-C: 1.41227  A-G: 1.83067  A-T: 0.97565  C-G: 1.19260  C-T: 5.68649  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.245  G: 0.287  T: 0.220
+Proportion of invariable sites: 0.371
+Gamma shape alpha: 0.411
+Parameters optimization took 1 rounds (0.050 sec)
+Time for fast ML tree search: 0.575 seconds
+
+NOTE: ModelFinder requires 7 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 1808) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         7914.112     73  15974.224    15980.455    16375.722
+  2  GTR+F+I       7522.951     74  15193.902    15200.307    15600.900
+  3  GTR+F+G4      7461.328     74  15070.656    15077.061    15477.654
+  4  GTR+F+I+G4    7440.002     75  15030.003    15036.585    15442.502
+  5  GTR+F+R2      7455.560     75  15061.119    15067.701    15473.618
+  6  GTR+F+R3      7452.744     77  15059.488    15066.431    15482.986
+ 14  GTR+F+I+R2    7431.698     76  15015.396    15022.157    15433.394
+ 15  GTR+F+I+R3    7429.002     78  15014.005    15021.133    15443.003
+ 26  SYM+I+G4      7455.877     72  15055.755    15061.813    15451.753
+ 36  SYM+I+R2      7447.662     73  15041.323    15047.554    15442.822
+ 37  SYM+I+R3      7445.119     75  15040.238    15046.820    15452.737
+ 48  TVM+F+I+G4    7481.054     74  15110.108    15116.513    15517.106
+ 58  TVM+F+I+R2    7469.503     75  15089.005    15095.587    15501.504
+ 59  TVM+F+I+R3    7467.834     77  15089.667    15096.611    15513.166
+ 70  TVMe+I+G4     7482.429     71  15106.857    15112.747    15497.356
+ 80  TVMe+I+R2     7471.597     72  15087.194    15093.253    15483.192
+ 81  TVMe+I+R3     7470.053     74  15088.106    15094.511    15495.104
+ 92  TIM3+F+I+G4   7440.505     73  15027.010    15033.241    15428.509
+102  TIM3+F+I+R2   7432.296     74  15012.593    15018.998    15419.591
+103  TIM3+F+I+R3   7429.825     76  15011.649    15018.411    15429.648
+114  TIM3e+I+G4    7456.177     70  15052.354    15058.077    15437.353
+124  TIM3e+I+R2    7447.992     71  15037.985    15043.874    15428.483
+125  TIM3e+I+R3    7445.515     73  15037.031    15043.262    15438.529
+136  TIM2+F+I+G4   7442.032     73  15030.064    15036.294    15431.562
+146  TIM2+F+I+R2   7433.738     74  15015.475    15021.880    15422.474
+147  TIM2+F+I+R3   7431.412     76  15014.824    15021.585    15432.822
+158  TIM2e+I+G4    7460.096     70  15060.192    15065.914    15445.190
+168  TIM2e+I+R2    7451.572     71  15045.143    15051.033    15435.642
+169  TIM2e+I+R3    7449.381     73  15044.762    15050.993    15446.261
+180  TIM+F+I+G4    7441.910     73  15029.820    15036.050    15431.318
+190  TIM+F+I+R2    7433.589     74  15015.179    15021.584    15422.177
+191  TIM+F+I+R3    7431.307     76  15014.614    15021.375    15432.612
+202  TIMe+I+G4     7459.858     70  15059.717    15065.439    15444.715
+212  TIMe+I+R2     7451.278     71  15044.557    15050.446    15435.055
+213  TIMe+I+R3     7449.026     73  15044.052    15050.283    15445.550
+224  TPM3u+F+I+G4  7481.807     72  15107.614    15113.673    15503.612
+234  TPM3u+F+I+R2  7470.442     73  15086.884    15093.114    15488.382
+235  TPM3u+F+I+R3  7468.812     75  15087.624    15094.206    15500.123
+246  TPM3+I+G4     7482.750     69  15103.499    15109.057    15482.997
+256  TPM3+I+R2     7472.017     70  15084.033    15089.756    15469.032
+257  TPM3+I+R3     7470.431     72  15084.863    15090.922    15480.861
+268  TPM2u+F+I+G4  7483.963     72  15111.927    15117.986    15507.925
+278  TPM2u+F+I+R2  7472.009     73  15090.018    15096.249    15491.517
+279  TPM2u+F+I+R3  7470.363     75  15090.726    15097.308    15503.224
+290  TPM2+I+G4     7487.008     69  15112.016    15117.575    15491.515
+300  TPM2+I+R2     7475.627     70  15091.254    15096.976    15476.252
+301  TPM2+I+R3     7474.205     72  15092.411    15098.470    15488.409
+312  K3Pu+F+I+G4   7483.956     72  15111.913    15117.972    15507.911
+322  K3Pu+F+I+R2   7472.030     73  15090.061    15096.291    15491.559
+323  K3Pu+F+I+R3   7470.447     75  15090.894    15097.476    15503.393
+334  K3P+I+G4      7486.722     69  15111.443    15117.001    15490.941
+344  K3P+I+R2      7475.294     70  15090.588    15096.310    15475.586
+345  K3P+I+R3      7473.854     72  15091.708    15097.767    15487.706
+356  TN+F+I+G4     7442.299     72  15028.598    15034.657    15424.596
+366  TN+F+I+R2     7434.031     73  15014.062    15020.293    15415.560
+367  TN+F+I+R3     7431.779     75  15013.558    15020.140    15426.056
+378  TNe+I+G4      7460.128     69  15058.256    15063.814    15437.754
+388  TNe+I+R2      7451.589     70  15043.179    15048.901    15428.177
+389  TNe+I+R3      7449.385     72  15042.770    15048.828    15438.768
+400  HKY+F+I+G4    7484.303     71  15110.607    15116.496    15501.105
+410  HKY+F+I+R2    7472.489     72  15088.977    15095.036    15484.975
+411  HKY+F+I+R3    7470.911     74  15089.823    15096.228    15496.821
+422  K2P+I+G4      7486.973     68  15109.945    15115.341    15483.944
+432  K2P+I+R2      7475.635     69  15089.270    15094.829    15468.769
+433  K2P+I+R3      7474.207     71  15090.414    15096.303    15480.912
+444  F81+F+I+G4    7590.401     70  15320.802    15326.524    15705.800
+454  F81+F+I+R2    7579.512     71  15301.023    15306.913    15691.522
+455  F81+F+I+R3    7577.995     73  15301.990    15308.221    15703.488
+466  JC+I+G4       7589.659     67  15313.318    15318.554    15681.816
+476  JC+I+R2       7578.926     68  15293.853    15299.249    15667.851
+477  JC+I+R3       7577.562     70  15295.125    15300.848    15680.123
+Akaike Information Criterion:           TIM3+F+I+R3
+Corrected Akaike Information Criterion: TIM3+F+I+R3
+Bayesian Information Criterion:         TN+F+I+R2
+Best-fit model: TN+F+I+R2 chosen according to BIC
+
+All model information printed to tree/concatenated_output.fa.model.gz
+CPU time for ModelFinder: 120.088 seconds (0h:2m:0s)
+Wall-clock time for ModelFinder: 61.841 seconds (0h:1m:1s)
+Generating 1000 samples for ultrafast bootstrap (seed: 285114)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -7434.031
+Optimal log-likelihood: -7434.027
+Rate parameters:  A-C: 1.00000  A-G: 1.62931  A-T: 1.00000  C-G: 1.00000  C-T: 4.84677  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.245  G: 0.287  T: 0.220
+Proportion of invariable sites: 0.558
+Site proportion and rates:  (0.338,0.975) (0.103,6.479)
+Parameters optimization took 1 rounds (0.025 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00370812 secs using 199.7% CPU
+Computing ML distances took 0.003894 sec (of wall-clock time) 0.007721 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000149965 secs using 269.4% CPU
+Constructing RapidNJ tree: done in 0.00116992 secs using 178.8% CPU
+Computing RapidNJ tree took 0.001466 sec (of wall-clock time) 0.003334 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -7549.639
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.432 second
+Computing log-likelihood of 98 initial trees ... 0.623 seconds
+Current best score: -7434.027
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.094425 secs using 197.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7431.465
+Optimizing NNI: done in 0.0992062 secs using 199.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -7428.334
+Optimizing NNI: done in 0.145366 secs using 198.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -7427.271
+Optimizing NNI: done in 0.124823 secs using 198.7% CPU
+Optimizing NNI: done in 0.158264 secs using 197.7% CPU
+Optimizing NNI: done in 0.101874 secs using 199.2% CPU
+Optimizing NNI: done in 0.103023 secs using 197.7% CPU
+Optimizing NNI: done in 0.140801 secs using 198.9% CPU
+Optimizing NNI: done in 0.140979 secs using 197.6% CPU
+Optimizing NNI: done in 0.143262 secs using 198.5% CPU
+Iteration 10 / LogL: -7440.137 / Time: 0h:0m:2s
+Optimizing NNI: done in 0.138842 secs using 198% CPU
+Optimizing NNI: done in 0.173676 secs using 198.4% CPU
+Optimizing NNI: done in 0.131596 secs using 197.9% CPU
+Optimizing NNI: done in 0.131794 secs using 198.2% CPU
+Optimizing NNI: done in 0.133899 secs using 199.2% CPU
+Optimizing NNI: done in 0.168463 secs using 197.8% CPU
+Optimizing NNI: done in 0.214695 secs using 198.2% CPU
+Optimizing NNI: done in 0.155207 secs using 199.4% CPU
+Optimizing NNI: done in 0.165482 secs using 197.4% CPU
+Optimizing NNI: done in 0.135932 secs using 198.2% CPU
+Iteration 20 / LogL: -7436.305 / Time: 0h:0m:4s
+Finish initializing candidate tree set (17)
+Current best tree score: -7427.271 / CPU time: 3.988
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.146618 secs using 198.6% CPU
+Optimizing NNI: done in 0.139855 secs using 198.4% CPU
+Optimizing NNI: done in 0.141994 secs using 198.3% CPU
+Optimizing NNI: done in 0.122852 secs using 199.3% CPU
+Optimizing NNI: done in 0.152983 secs using 198.3% CPU
+Optimizing NNI: done in 0.184785 secs using 197% CPU
+Optimizing NNI: done in 0.130089 secs using 197.6% CPU
+Optimizing NNI: done in 0.192521 secs using 198.5% CPU
+Optimizing NNI: done in 0.163698 secs using 198.8% CPU
+Optimizing NNI: done in 0.14242 secs using 198% CPU
+Iteration 30 / LogL: -7431.686 / Time: 0h:0m:5s (0h:0m:14s left)
+Optimizing NNI: done in 0.142738 secs using 198.2% CPU
+Optimizing NNI: done in 0.197547 secs using 198.6% CPU
+Optimizing NNI: done in 0.113645 secs using 197.5% CPU
+Optimizing NNI: done in 0.132612 secs using 196% CPU
+Optimizing NNI: done in 0.102072 secs using 199.6% CPU
+Optimizing NNI: done in 0.111535 secs using 199.2% CPU
+Optimizing NNI: done in 0.160997 secs using 197.2% CPU
+Optimizing NNI: done in 0.145575 secs using 197.7% CPU
+Optimizing NNI: done in 0.127231 secs using 197.3% CPU
+Optimizing NNI: done in 0.1135 secs using 197.8% CPU
+Iteration 40 / LogL: -7428.777 / Time: 0h:0m:7s (0h:0m:11s left)
+Optimizing NNI: done in 0.1645 secs using 198.3% CPU
+Optimizing NNI: done in 0.148336 secs using 198.9% CPU
+Optimizing NNI: done in 0.172583 secs using 197.6% CPU
+Optimizing NNI: done in 0.253048 secs using 198.1% CPU
+Optimizing NNI: done in 0.103701 secs using 199.4% CPU
+Optimizing NNI: done in 0.106269 secs using 197.4% CPU
+Optimizing NNI: done in 0.109746 secs using 198.4% CPU
+Optimizing NNI: done in 0.163715 secs using 198.5% CPU
+Optimizing NNI: done in 0.137623 secs using 198.7% CPU
+Optimizing NNI: done in 0.189444 secs using 199.4% CPU
+Iteration 50 / LogL: -7428.328 / Time: 0h:0m:8s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -7474.178
+Optimizing NNI: done in 0.181936 secs using 198.9% CPU
+Optimizing NNI: done in 0.151344 secs using 195.7% CPU
+Optimizing NNI: done in 0.128188 secs using 198.7% CPU
+Optimizing NNI: done in 0.167091 secs using 198.2% CPU
+Optimizing NNI: done in 0.145793 secs using 198.6% CPU
+Optimizing NNI: done in 0.085973 secs using 198.9% CPU
+Optimizing NNI: done in 0.133001 secs using 198.6% CPU
+Optimizing NNI: done in 0.161022 secs using 198.7% CPU
+Optimizing NNI: done in 0.191445 secs using 198.6% CPU
+Optimizing NNI: done in 0.126695 secs using 199.4% CPU
+Iteration 60 / LogL: -7428.326 / Time: 0h:0m:10s (0h:0m:7s left)
+Optimizing NNI: done in 0.134672 secs using 198.7% CPU
+Optimizing NNI: done in 0.150761 secs using 197.6% CPU
+Optimizing NNI: done in 0.160665 secs using 198.4% CPU
+Optimizing NNI: done in 0.168728 secs using 197.6% CPU
+Optimizing NNI: done in 0.178487 secs using 198.8% CPU
+Optimizing NNI: done in 0.159294 secs using 198.4% CPU
+Optimizing NNI: done in 0.145961 secs using 199.1% CPU
+Optimizing NNI: done in 0.09852 secs using 198% CPU
+Optimizing NNI: done in 0.154604 secs using 198.6% CPU
+Optimizing NNI: done in 0.139155 secs using 199% CPU
+Iteration 70 / LogL: -7428.339 / Time: 0h:0m:12s (0h:0m:5s left)
+Optimizing NNI: done in 0.158889 secs using 198.7% CPU
+Optimizing NNI: done in 0.129006 secs using 197.6% CPU
+Optimizing NNI: done in 0.200777 secs using 196% CPU
+Optimizing NNI: done in 0.155859 secs using 198.6% CPU
+Optimizing NNI: done in 0.223895 secs using 197.4% CPU
+Optimizing NNI: done in 0.14364 secs using 196.3% CPU
+Optimizing NNI: done in 0.15906 secs using 196.1% CPU
+Optimizing NNI: done in 0.139909 secs using 198.2% CPU
+Optimizing NNI: done in 0.119261 secs using 198.9% CPU
+Optimizing NNI: done in 0.134804 secs using 197.7% CPU
+Iteration 80 / LogL: -7427.272 / Time: 0h:0m:13s (0h:0m:3s left)
+Optimizing NNI: done in 0.121292 secs using 197.8% CPU
+Optimizing NNI: done in 0.123081 secs using 198.3% CPU
+Optimizing NNI: done in 0.172951 secs using 198.8% CPU
+Optimizing NNI: done in 0.186189 secs using 198.5% CPU
+Optimizing NNI: done in 0.145183 secs using 198.1% CPU
+Optimizing NNI: done in 0.139084 secs using 199.1% CPU
+Optimizing NNI: done in 0.143423 secs using 197.7% CPU
+Optimizing NNI: done in 0.146356 secs using 198.3% CPU
+Optimizing NNI: done in 0.114269 secs using 199.2% CPU
+Optimizing NNI: done in 0.187559 secs using 198% CPU
+Iteration 90 / LogL: -7427.272 / Time: 0h:0m:15s (0h:0m:2s left)
+Optimizing NNI: done in 0.15803 secs using 196.9% CPU
+Optimizing NNI: done in 0.122391 secs using 197.3% CPU
+Optimizing NNI: done in 0.150777 secs using 198.6% CPU
+Optimizing NNI: done in 0.093514 secs using 198.5% CPU
+Optimizing NNI: done in 0.17589 secs using 198.8% CPU
+Optimizing NNI: done in 0.162909 secs using 198.3% CPU
+Optimizing NNI: done in 0.208525 secs using 198.1% CPU
+Optimizing NNI: done in 0.179475 secs using 198.5% CPU
+Optimizing NNI: done in 0.163911 secs using 198.5% CPU
+Optimizing NNI: done in 0.146091 secs using 197.9% CPU
+Iteration 100 / LogL: -7428.332 / Time: 0h:0m:16s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -7474.178
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Optimizing NNI: done in 0.112988 secs using 199.1% CPU
+Optimizing NNI: done in 0.178106 secs using 197.3% CPU
+Optimizing NNI: done in 0.110719 secs using 197.9% CPU
+Optimizing NNI: done in 0.134412 secs using 197.9% CPU
+TREE SEARCH COMPLETED AFTER 104 ITERATIONS / Time: 0h:0m:17s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7427.271
+Optimal log-likelihood: -7427.269
+Rate parameters:  A-C: 1.00000  A-G: 1.64079  A-T: 1.00000  C-G: 1.00000  C-T: 4.66222  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.245  G: 0.287  T: 0.220
+Proportion of invariable sites: 0.561
+Site proportion and rates:  (0.343,1.012) (0.096,6.795)
+Parameters optimization took 1 rounds (0.027 sec)
+BEST SCORE FOUND : -7427.269
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.864 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file tree/concatenated_output.fa.splits.nex
+Total tree length: 1.398
+
+Total number of iterations: 104
+CPU time used for tree search: 34.547 sec (0h:0m:34s)
+Wall-clock time used for tree search: 17.524 sec (0h:0m:17s)
+Total CPU time used: 36.892 sec (0h:0m:36s)
+Total wall-clock time used: 18.714 sec (0h:0m:18s)
+
+Computing bootstrap consensus tree...
+Reading input file tree/concatenated_output.fa.splits.nex...
+34 taxa and 360 splits.
+Consensus tree written to tree/concatenated_output.fa.contree
+Reading input trees file tree/concatenated_output.fa.contree
+Log-likelihood of consensus tree: -7427.270
+
+Analysis results written to: 
+  IQ-TREE report:                tree/concatenated_output.fa.iqtree
+  Maximum-likelihood tree:       tree/concatenated_output.fa.treefile
+  Likelihood distances:          tree/concatenated_output.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          tree/concatenated_output.fa.splits.nex
+  Consensus tree:                tree/concatenated_output.fa.contree
+  Screen log file:               tree/concatenated_output.fa.log
+
+Date and Time: Mon Feb 12 14:54:36 2024

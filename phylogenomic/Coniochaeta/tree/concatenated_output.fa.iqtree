@@ -1,0 +1,337 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: concatenated_output.fa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 463502
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 33 sequences with 1808 nucleotide sites
+Number of constant sites: 1304 (= 72.1239% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1304 (= 72.1239% of all sites)
+Number of parsimony informative sites: 212
+Number of distinct site patterns: 509
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TN+F+I+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TN+F+I+R2         -7476.925   15095.850 +    0.207   15101.739 +     0.23   15486.348 +    0.826
+TIM3+F+I+R2       -7475.133   15094.266 +    0.457   15100.325 +    0.466   15490.265 +    0.116
+TIM2+F+I+R2       -7476.772   15097.545 +   0.0887   15103.603 +   0.0905   15493.543 -   0.0226
+TIM+F+I+R2        -7476.819   15097.637 +   0.0847   15103.696 +   0.0864   15493.636 -   0.0216
+TN+F+I+G4         -7485.176   15110.352 - 0.000147   15116.075 - 0.000177   15495.351 -  0.00916
+TIM3+F+I+G4       -7483.317   15108.633 - 0.000347   15114.523 - 0.000385   15499.131 -  0.00138
+TIM3e+I+R2        -7490.907   15119.813 -  1.3e-06   15125.371 -  1.7e-06   15499.312 -  0.00126
+TNe+I+R2          -7494.682   15125.363 - 8.08e-08   15130.760 - 1.15e-07   15499.362 -  0.00123
+TIM2+F+I+G4       -7485.066   15112.133 - 6.03e-05   15118.022 -  6.7e-05   15502.631 -  0.00024
+TIM+F+I+G4        -7485.070   15112.140 - 6.01e-05   15118.029 - 6.67e-05   15502.638 -  0.00024
+GTR+F+I+R2        -7475.011   15098.021 +   0.0699   15104.426 +     0.06   15505.020 - 7.28e-05
+TIM2e+I+R2        -7494.586   15127.173 - 3.27e-08   15132.731 - 4.28e-08   15506.671 - 3.19e-05
+TIMe+I+R2         -7494.647   15127.295 - 3.08e-08   15132.853 - 4.03e-08   15506.793 -    3e-05
+TIM3e+I+G4        -7499.140   15134.281 - 9.35e-10   15139.677 - 1.33e-09   15508.279 - 1.43e-05
+TNe+I+G4          -7503.219   15140.438 -  4.3e-11   15145.675 - 6.62e-11   15508.937 - 1.03e-05
+SYM+I+R2          -7490.714   15123.429 - 2.13e-07   15129.318 - 2.36e-07   15513.927 - 8.47e-07
+GTR+F+I+G4        -7483.234   15112.469 -  5.1e-05   15118.700 - 4.77e-05   15513.967 - 8.31e-07
+GTR+F+I+R3        -7472.738   15097.476 +   0.0918   15104.237 +    0.066   15515.474 - 3.91e-07
+TIM2e+I+G4        -7503.078   15142.155 - 1.82e-11   15147.552 - 2.59e-11   15516.154 - 2.78e-07
+TIMe+I+G4         -7503.160   15142.320 - 1.68e-11   15147.716 - 2.39e-11   15516.318 - 2.56e-07
+SYM+I+G4          -7499.022   15138.044 - 1.42e-10   15143.767 - 1.72e-10   15523.043 - 8.89e-09
+TPM3+I+R2         -7514.170   15164.339 - 2.78e-16   15169.735 - 3.95e-16   15538.337 - 4.24e-12
+K2P+I+R2          -7518.091   15170.181 -  1.5e-17   15175.418 -  2.3e-17   15538.680 - 3.57e-12
+GTR+F+R2          -7496.862   15139.724 - 6.15e-11   15145.955 - 5.76e-11   15541.223 -    1e-12
+K3P+I+R2          -7518.031   15172.062 - 5.85e-18   15177.458 - 8.31e-18   15546.060 - 8.92e-14
+TPM2+I+R2         -7518.068   15172.137 - 5.63e-18   15177.533 -    8e-18   15546.135 - 8.59e-14
+GTR+F+G4          -7504.583   15153.165 - 7.42e-14   15159.224 - 7.57e-14   15549.164 - 1.89e-14
+GTR+F+R3          -7494.062   15138.124 - 1.37e-10   15144.706 - 1.08e-10   15550.622 - 9.12e-15
+TVMe+I+R2         -7514.079   15168.157 - 4.12e-17   15173.880 - 4.97e-17   15553.156 - 2.57e-15
+TPM3+I+G4         -7525.915   15185.831 - 5.98e-21   15191.068 - 9.21e-21   15554.329 - 1.43e-15
+HKY+F+I+R2        -7514.948   15169.896 - 1.73e-17   15175.618 - 2.08e-17   15554.894 - 1.08e-15
+K2P+I+G4          -7530.339   15192.678 - 1.95e-22   15197.758 - 3.25e-22   15555.677 - 7.28e-16
+TPM3u+F+I+R2      -7512.701   15167.402 - 6.01e-17   15173.291 - 6.67e-17   15557.900 -  2.4e-16
+TPM2u+F+I+R2      -7514.528   15171.056 - 9.67e-18   15176.945 - 1.07e-17   15561.554 - 3.85e-17
+K3Pu+F+I+R2       -7514.845   15171.690 - 7.04e-18   15177.579 - 7.82e-18   15562.188 - 2.81e-17
+TPM2+I+G4         -7530.190   15194.379 - 8.33e-23   15199.616 - 1.28e-22   15562.878 - 1.99e-17
+K3P+I+G4          -7530.293   15194.585 - 7.52e-23   15199.822 - 1.16e-22   15563.084 - 1.79e-17
+TVMe+I+G4         -7525.692   15189.383 - 1.01e-21   15194.942 - 1.33e-21   15568.882 - 9.88e-19
+TVM+F+I+R2        -7512.209   15170.419 - 1.33e-17   15176.649 - 1.24e-17   15571.917 - 2.17e-19
+HKY+F+I+G4        -7527.672   15193.344 -  1.4e-22   15198.902 - 1.83e-22   15572.842 - 1.36e-19
+TPM3u+F+I+G4      -7525.080   15190.159 - 6.87e-22   15195.882 -  8.3e-22   15575.157 - 4.29e-20
+TPM2u+F+I+G4      -7527.468   15194.936 - 6.31e-23   15200.659 - 7.61e-23   15579.935 - 3.93e-21
+K3Pu+F+I+G4       -7527.590   15195.181 - 5.58e-23   15200.903 - 6.74e-23   15580.179 - 3.48e-21
+TVM+F+I+G4        -7524.805   15193.610 - 1.22e-22   15199.669 - 1.25e-22   15589.608 - 3.12e-23
+GTR+F+I           -7567.175   15278.350 - 4.86e-41   15284.409 - 4.96e-41   15674.349 - 1.24e-41
+JC+I+R2           -7612.798   15357.597 - 3.01e-58   15362.677 - 5.01e-58   15720.595 - 1.12e-51
+JC+I+G4           -7624.708   15379.417 -  5.5e-63   15384.342 - 9.89e-63   15736.915 - 3.21e-55
+F81+F+I+R2        -7613.146   15364.292 - 1.06e-59   15369.850 - 1.39e-59   15743.790 - 1.03e-56
+F81+F+I+G4        -7625.076   15386.153 -  1.9e-64   15391.549 - 2.69e-64   15760.151 - 2.89e-60
+GTR+F             -7968.759   16079.518 - 5.19e-215   16085.407 - 5.77e-215   16470.016 - 2.07e-214
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TN+F+I+R2
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.6655
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 4.6314
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2483
+  pi(C) = 0.2448
+  pi(G) = 0.2866
+  pi(T) = 0.2203
+
+Rate matrix Q:
+
+  A   -0.7636    0.1983    0.3867    0.1785
+  C    0.2012     -1.26    0.2322    0.8268
+  G    0.3351    0.1983    -0.712    0.1785
+  T    0.2012    0.9186    0.2322    -1.352
+
+Model of rate heterogeneity: Invar+FreeRate with 2 categories
+Proportion of invariable sites: 0.5723
+Site proportion and rates:  (0.3452,1.119) (0.08247,7.44)
+
+ Category  Relative_rate  Proportion
+  0         0              0.5723
+  1         1.119          0.3452
+  2         7.44           0.08247
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7439.1662 (s.e. 225.8022)
+Unconstrained log-likelihood (without tree): -8670.1671
+Number of free parameters (#branches + #model parameters): 71
+Akaike information criterion (AIC) score: 15020.3325
+Corrected Akaike information criterion (AICc) score: 15026.2219
+Bayesian information criterion (BIC) score: 15410.8308
+
+Total tree length (sum of branch lengths): 1.3152
+Sum of internal branch lengths: 0.3350 (25.4692% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Chaetosphaeria_ciliata' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-----------------------------------------------------------Chaetosphaeria_ciliata
+|
+|                               +----Coniochaeta_JDC7
+|                            +--| (49.6/65)
+|                            |  |  +--Coniochaeta_fodinicola
+|                            |  +--| (75.9/95)
+|                            |     +**Coniochaeta_rankiniae
+|                         +--| (51.3/40)
+|                         |  |  +---Coniochaeta_baysunika
+|                         |  +--| (97.2/80)
+|                         |     |  +--Coniochaeta_canina
+|                         |     +--| (98.6/100)
+|                         |        |  +**Coniochaeta_cateniformis
+|                         |        +--| (97.4/100)
+|                         |           +**Coniochaeta_simbalensis
+|                      +--| (88.8/75)
+|                      |  +--Coniochaeta_hoffmannii
+|                   +--| (93.4/78)
+|                   |  |  +--Coniochaeta_cymbiformispora
+|                   |  +--| (73.8/93)
+|                   |     |  +--Coniochaeta_elegans
+|                   |     +--| (80.6/95)
+|                   |        +--Coniochaeta_nivea
+|                +--| (81.6/31)
+|                |  |        +--Coniochaeta_caraganae
+|                |  |     +--| (45.5/37)
+|                |  |     |  +----Coniochaeta_fasciculata
+|                |  |  +--| (34.6/34)
+|                |  |  |  +--Coniochaeta_rosae
+|                |  +**| (0/18)
+|                |     |  +--Coniochaeta_lignicola
+|                |     +--| (97.7/99)
+|                |        |  +--Coniochaeta_luteoviridis
+|                |        +--| (88/94)
+|                |           +--Coniochaeta_mutabilis
+|             +--| (37.6/27)
+|             |  +--Coniochaeta_vineae
+|          +--| (77.8/58)
+|          |  |  +--Coniochaeta_endophytica
+|          |  +--| (85.9/96)
+|          |     +--Coniochaeta_prunicola
+|       +--| (88/88)
+|       |  +--Coniochaeta_africana
+|  +----| (90/88)
+|  |    +-------------------Coniochaeta_verticillata
++--| (44.2/73)
+|  |        +-----Coniochaeta_gigantospora
+|  +--------| (96.7/98)
+|           +----------Coniochaeta_ostrea
+|
+|                      +---Coniochaeta_boothii
+|                   +--| (79/99)
+|                   |  +--Coniochaeta_deborreae
+|             +-----| (99/100)
+|             |     +---------Coniochaeta_rhopalochaeta
+|          +--| (86.6/67)
+|          |  +**Coniochaeta_cipronana
+|       +--| (91.8/70)
+|       |  +--Coniochaeta_decumbens
+|    +--| (19.7/63)
+|    |  +--Coniochaeta_navarrae
++----| (95.4/96)
+     |  +--Coniochaeta_discoidea
+     +--| (88.4/97)
+        +--Coniochaeta_polymorpha
+
+Tree in newick format:
+
+(Chaetosphaeria_ciliata:0.3506892994,((((((((((Coniochaeta_JDC7:0.0337663712,(Coniochaeta_fodinicola:0.0141363963,Coniochaeta_rankiniae:0.0000020513)75.9/95:0.0152573329)49.6/65:0.0036066844,(Coniochaeta_baysunika:0.0289784342,(Coniochaeta_canina:0.0143848419,(Coniochaeta_cateniformis:0.0000009795,Coniochaeta_simbalensis:0.0000009795)97.4/100:0.0109502907)98.6/100:0.0158045621)97.2/80:0.0122904277)51.3/40:0.0024816864,Coniochaeta_hoffmannii:0.0202206826)88.8/75:0.0063331079,(Coniochaeta_cymbiformispora:0.0079739432,(Coniochaeta_elegans:0.0067151146,Coniochaeta_nivea:0.0018476884)80.6/95:0.0037204984)73.8/93:0.0025026356)93.4/78:0.0047652135,(((Coniochaeta_caraganae:0.0231295922,Coniochaeta_fasciculata:0.0305739236)45.5/37:0.0032374278,Coniochaeta_rosae:0.0190188799)34.6/34:0.0042323760,(Coniochaeta_lignicola:0.0033107100,(Coniochaeta_luteoviridis:0.0047142635,Coniochaeta_mutabilis:0.0069774818)88/94:0.0057519151)97.7/99:0.0105733795)0/18:0.0000023053)81.6/31:0.0022120507,Coniochaeta_vineae:0.0147873299)37.6/27:0.0022644201,(Coniochaeta_endophytica:0.0024097856,Coniochaeta_prunicola:0.0086090760)85.9/96:0.0076120942)77.8/58:0.0059539391,Coniochaeta_africana:0.0138018675)88/88:0.0185062375,Coniochaeta_verticillata:0.1207502129)90/88:0.0325687089,(Coniochaeta_gigantospora:0.0378189837,Coniochaeta_ostrea:0.0673132168)96.7/98:0.0576639784)44.2/73:0.0131824432,((((((Coniochaeta_boothii:0.0270556003,Coniochaeta_deborreae:0.0006155710)79/99:0.0065491700,Coniochaeta_rhopalochaeta:0.0628797960)99/100:0.0359931429,Coniochaeta_cipronana:0.0000027517)86.6/67:0.0050752160,Coniochaeta_decumbens:0.0049973789)91.8/70:0.0078668640,Coniochaeta_navarrae:0.0128674501)19.7/63:0.0035600720,(Coniochaeta_discoidea:0.0162885755,Coniochaeta_polymorpha:0.0126296448)88.4/97:0.0111072965)95.4/96:0.0342931976);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -7439.823829
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------Chaetosphaeria_ciliata
+|
+|                               +----Coniochaeta_JDC7
+|                            +--| (65)
+|                            |  |  +--Coniochaeta_fodinicola
+|                            |  +--| (95)
+|                            |     +--Coniochaeta_rankiniae
+|                         +--| (40)
+|                         |  |  +---Coniochaeta_baysunika
+|                         |  +--| (80)
+|                         |     |  +--Coniochaeta_canina
+|                         |     +--| (100)
+|                         |        |  +--Coniochaeta_cateniformis
+|                         |        +--| (100)
+|                         |           +--Coniochaeta_simbalensis
+|                      +--| (75)
+|                      |  +--Coniochaeta_hoffmannii
+|                   +--| (78)
+|                   |  |  +--Coniochaeta_cymbiformispora
+|                   |  +--| (93)
+|                   |     |  +--Coniochaeta_elegans
+|                   |     +--| (95)
+|                   |        +--Coniochaeta_nivea
+|                +--| (24)
+|                |  +---Coniochaeta_caraganae
+|             +--| (22)
+|             |  |     +--Coniochaeta_lignicola
+|             |  |  +--| (99)
+|             |  |  |  |  +--Coniochaeta_luteoviridis
+|             |  |  |  +--| (94)
+|             |  |  |     +--Coniochaeta_mutabilis
+|             |  +--| (41)
+|             |     +--Coniochaeta_rosae
+|          +--| (58)
+|          |  |     +--Coniochaeta_endophytica
+|          |  |  +--| (96)
+|          |  |  |  +--Coniochaeta_prunicola
+|          |  +--| (34)
+|          |     |  +----Coniochaeta_fasciculata
+|          |     +--| (51)
+|          |        +--Coniochaeta_vineae
+|       +--| (88)
+|       |  +--Coniochaeta_africana
+|  +----| (88)
+|  |    +-------------------Coniochaeta_verticillata
++--| (73)
+|  |        +-----Coniochaeta_gigantospora
+|  +--------| (98)
+|           +----------Coniochaeta_ostrea
+|
+|                      +---Coniochaeta_boothii
+|                   +--| (99)
+|                   |  +--Coniochaeta_deborreae
+|             +-----| (100)
+|             |     +---------Coniochaeta_rhopalochaeta
+|          +--| (67)
+|          |  +--Coniochaeta_cipronana
+|       +--| (70)
+|       |  +--Coniochaeta_decumbens
+|    +--| (63)
+|    |  +--Coniochaeta_navarrae
++----| (96)
+     |  +--Coniochaeta_discoidea
+     +--| (97)
+        +--Coniochaeta_polymorpha
+
+
+Consensus tree in newick format: 
+
+(Chaetosphaeria_ciliata:0.3452583010,((((((((((Coniochaeta_JDC7:0.0330192449,(Coniochaeta_fodinicola:0.0139088633,Coniochaeta_rankiniae:0.0000028350)95:0.0154211877)65:0.0033521754,(Coniochaeta_baysunika:0.0284929273,(Coniochaeta_canina:0.0140854650,(Coniochaeta_cateniformis:0.0000020791,Coniochaeta_simbalensis:0.0000022232)100:0.0108823876)100:0.0157385928)80:0.0123188704)40:0.0018265579,Coniochaeta_hoffmannii:0.0209847155)75:0.0056463920,(Coniochaeta_cymbiformispora:0.0072825633,(Coniochaeta_elegans:0.0063785995,Coniochaeta_nivea:0.0020252453)95:0.0038226879)93:0.0056829587)78:0.0032091859,Coniochaeta_caraganae:0.0256705316)24:0.0015339283,((Coniochaeta_lignicola:0.0035282003,(Coniochaeta_luteoviridis:0.0046256404,Coniochaeta_mutabilis:0.0069031295)94:0.0053340728)99:0.0101203857,Coniochaeta_rosae:0.0189579240)41:0.0032796600)22:0.0029580124,((Coniochaeta_endophytica:0.0023604792,Coniochaeta_prunicola:0.0089240459)96:0.0057446617,(Coniochaeta_fasciculata:0.0318352277,Coniochaeta_vineae:0.0110060261)51:0.0050537227)34:0.0013474493)58:0.0068271156,Coniochaeta_africana:0.0144426541)88:0.0178636815,Coniochaeta_verticillata:0.1201463808)88:0.0309630222,(Coniochaeta_gigantospora:0.0369933937,Coniochaeta_ostrea:0.0678577428)98:0.0563315129)73:0.0130346942,((((((Coniochaeta_boothii:0.0266801883,Coniochaeta_deborreae:0.0006237830)99:0.0064451667,Coniochaeta_rhopalochaeta:0.0625467942)100:0.0354494377,Coniochaeta_cipronana:0.0000025203)67:0.0049977975,Coniochaeta_decumbens:0.0049264876)70:0.0077083767,Coniochaeta_navarrae:0.0127790150)63:0.0034986090,(Coniochaeta_discoidea:0.0160084341,Coniochaeta_polymorpha:0.0125212988)97:0.0110004037)96:0.0337599050);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concatenated_output.fa.treefile -m "TN{1.66553,4.63141}+F{0.248316,0.244789,0.286564,0.220331}+I{0.572305}+R2{0.345222,1.11934,0.0824732,7.43975}" --length 1808
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s concatenated_output.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s concatenated_output.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Feb 12 15:11:28 2024
+Total CPU time used: 42.285843 seconds (0h:0m:42s)
+Total wall-clock time used: 21.99951792 seconds (0h:0m:21s)
+
