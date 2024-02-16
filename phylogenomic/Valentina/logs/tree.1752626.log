@@ -1,0 +1,195 @@
+mkdir: cannot create directory ‘’: No such file or directory
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i49 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -nt AUTO -s aligments.fasta -alrt 1000 -bb 1000 -m MFP
+Seed:    448127 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Feb 16 11:48:23 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file aligments.fasta ... Fasta format detected
+Reading fasta file: done in 0.00882292 secs using 94.8% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.013845 secs using 1196% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 164 sequences with 3616 columns, 1702 distinct patterns
+962 parsimony-informative, 567 singleton sites, 2087 constant sites
+                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000176191 secs using 1146% CPU
+   1  FK-28            65.68%    passed     89.32%
+   2  FK-32            66.62%    passed     74.98%
+   3  FK-33            65.46%    passed     90.64%
+   4  FK-61            65.10%    passed     92.10%
+   5  FK-110           65.46%    passed     90.01%
+   6  FK-181           65.96%    passed     80.12%
+   7  FK-248           65.93%    passed     80.73%
+   8  FK-252           65.54%    passed     89.76%
+   9  FK-372           65.13%    passed     90.20%
+  10  FK-378           65.85%    passed     79.11%
+  11  FK-698           65.46%    passed     87.65%
+  12  FK-747           65.57%    passed     87.99%
+  13  FK-748           66.73%    passed     88.47%
+  14  FK-755           66.51%    passed     88.12%
+  15  AR12_G           64.41%    passed     90.89%
+  16  AR46             64.85%    passed     89.38%
+  17  ATCC22927        62.69%    passed     80.67%
+  18  CAA_005          65.38%    passed     74.42%
+  19  CAA_006          63.61%    passed     93.77%
+  20  CBS124.13        63.61%    passed     98.77%
+  21  CBS162.25        62.94%    passed     70.22%
+  22  CBS164.96        63.61%    passed     98.36%
+  23  CBS169.34        62.72%    passed     11.66%
+  24  CBS230.30        62.72%    passed     96.52%
+  25  CBS251.49        63.03%    passed     80.53%
+  26  CBS261.85        62.20%    passed     88.97%
+  27  CBS447.62        63.86%    passed     95.43%
+  28  CBS562.92        66.57%    passed     45.44%
+  29  CBS100163        63.30%    passed     50.08%
+  30  CBS110299        63.38%    passed     87.67%
+  31  CBS110301        63.25%    passed     96.17%
+  32  CBS110302        62.91%    passed     89.43%
+  33  CBS110492        64.10%    passed     96.62%
+  34  CBS110496        65.60%    passed     47.20%
+  35  CBS112546        62.58%    passed     90.82%
+  36  CBS112549        62.58%    passed     93.30%
+  37  CBS115041        65.46%    passed     76.84%
+  38  CBS115476        65.87%    passed     83.48%
+  39  CBS115679        66.84%    passed     63.59%
+  40  CBS115766        66.73%    passed     63.93%
+  41  CBS115812        67.31%    passed     85.33%
+  42  CBS116131        64.05%    passed     90.56%
+  43  CBS116355        67.31%    passed     85.33%
+  44  CBS116459        63.83%    passed     96.62%
+  45  CBS117009        64.63%    passed     58.91%
+  46  CBS117090        64.05%    passed     90.98%
+  47  CBS117444        62.97%    passed     88.69%
+  48  CBS117449        64.33%    passed     71.31%
+  49  CBS118223        66.65%    passed     48.82%
+  50  CBS118531        66.23%    passed     88.04%
+  51  CBS118740        65.65%    passed     88.97%
+  52  CBS119047        62.69%    passed     78.38%
+  53  CBS121718        63.69%    passed     58.09%
+  54  CBS123634        67.09%    passed     44.50%
+  55  CBS123639        67.12%    passed     58.72%
+  56  CBS123645        67.09%    passed     59.70%
+  57  CBS124924        50.69%    passed     78.80%
+  58  CBS128309        68.34%    passed     44.76%
+  59  CBS130408        67.04%    passed     59.13%
+  60  CBS130412        67.75%    passed     39.54%
+  61  CBS130414        68.06%    passed     74.26%
+  62  CBS133992        64.46%    passed     51.84%
+  63  CBS133993        65.18%    passed     99.03%
+  64  CBS134112        64.63%    passed     90.63%
+  65  CMW6837          66.29%    passed     73.20%
+  66  CMW7063          70.74%    passed     20.13%
+  67  CMW7772          65.79%    passed     70.59%
+  68  CMW9081          66.23%    passed     80.19%
+  69  CPC_12442        63.16%    passed     82.07%
+  70  FK-34            62.00%    passed     97.37%
+  71  FK-35            61.97%    passed     97.33%
+  72  FK-54            62.14%    passed     97.09%
+  73  FK-65            61.59%    passed     70.11%
+  74  FK-71            62.33%    passed     98.20%
+  75  FK-72            62.75%    passed     98.15%
+  76  FK-77            62.17%    passed     96.98%
+  77  FK-118           62.83%    passed     95.11%
+  78  FK-119           62.64%    passed     97.91%
+  79  FK-120           62.11%    passed     96.29%
+  80  FK-121           62.17%    passed     94.30%
+  81  FK-122           62.64%    passed     98.78%
+  82  FK-124           62.80%    passed     96.58%
+  83  FK-185           62.44%    passed     98.38%
+  84  FK-186           62.31%    passed     98.99%
+  85  FK-191           62.00%    passed     95.02%
+  86  FK-253           61.97%    passed     95.51%
+  87  FK-254           62.33%    passed     98.07%
+  88  FK-255           62.06%    passed     98.03%
+  89  FK-256           62.06%    passed     95.68%
+  90  FK-257           62.14%    passed     96.15%
+  91  FK-277           62.17%    passed     79.35%
+  92  FK-302           62.11%    passed     93.68%
+  93  FK-379           62.03%    passed     97.35%
+  94  FK-384           62.11%    passed     96.29%
+  95  FK-386           62.06%    passed     95.68%
+  96  FK-389           62.06%    passed     95.87%
+  97  FK-670           62.28%    passed     84.27%
+  98  FK-679           62.58%    passed     95.91%
+  99  FK-680           62.42%    passed     94.46%
+ 100  FK-705           62.36%    passed     98.26%
+ 101  FK-706           62.36%    passed     97.17%
+ 102  FK-709           63.16%    passed     99.01%
+ 103  FK-712           61.81%    passed     96.48%
+ 104  FK-714           62.44%    passed     97.91%
+ 105  FK-715           62.69%    passed     96.41%
+ 106  FK-743           62.39%    passed     95.39%
+ 107  FK-746           62.44%    passed     97.05%
+ 108  FK-752           65.27%    passed     83.27%
+ 109  FK-763           62.06%    passed     94.34%
+ 110  FK-765           62.67%    passed     94.05%
+ 111  FK-768           62.67%    passed     96.67%
+ 112  FK-803           62.39%    passed     98.90%
+ 113  FK-814           62.00%    passed     98.46%
+ 114  FK-816           62.39%    passed     95.49%
+ 115  FK-817           62.42%    passed     98.99%
+ 116  FK-818           62.06%    passed     98.00%
+ 117  FK-822           62.11%    passed     96.54%
+ 118  FK-848           70.27%    passed     91.51%
+ 119  FK-860           62.09%    passed     96.67%
+ 120  FK-876           62.33%    passed     97.43%
+ 121  FK-877           62.14%    passed     97.03%
+ 122  FK-878           62.03%    passed     96.21%
+ 123  FK-879           62.33%    passed     98.96%
+ 124  FK-889           62.33%    passed     98.94%
+ 125  FK-891           62.33%    passed     98.96%
+ 126  ICMP_16818       63.55%    passed     91.56%
+ 127  MFLUCC           64.05%    passed     67.44%
+ 128  MFLUCC10-0098    55.42%    passed     86.70%
+ 129  MFLUCC_11        64.10%    passed     85.73%
+ 130  MFLUCC_11-0163   64.66%    failed      1.83%
+ 131  MFLUCC_11-0507   61.17%    passed     56.33%
+ 132  MUCC227          66.23%    passed     69.68%
+ 133  PALUC449F        76.69%    passed     46.46%
+ 134  PD484            63.77%    passed     42.30%
+ 135  UCR160           74.39%    passed     65.30%
+ 136  UCR211           70.24%    passed     71.87%
+ 137  UCR295           64.49%    failed      4.48%
+ 138  UCR452           67.15%    passed     83.89%
+ 139  UCR453           72.43%    passed     86.08%
+ 140  UCR454           72.07%    passed     79.73%
+ 141  UCR455           72.18%    passed     92.27%
+ 142  UCR468           63.94%    passed     27.42%
+ 143  UCR508           74.09%    passed     52.53%
+ 144  UCR509           70.24%    passed      7.21%
+ 145  UCR516           72.26%    passed     85.94%
+ 146  UCR524           72.12%    passed     93.08%
+ 147  UCR526           72.26%    passed     90.07%
+ 148  UCR531           70.46%    passed     54.80%
+ 149  UCR532           62.83%    passed     46.50%
+ 150  UCR539           70.69%    passed     92.56%
+ 151  UCR594           72.29%    passed     86.89%
+ 152  UCR652           69.94%    passed     30.62%
+ 153  UCR654           72.51%    passed     89.06%
+ 154  UCR732           65.49%    passed     23.27%
+ 155  UCR735           63.91%    passed     71.26%
+ 156  UCR736           64.66%    passed     38.07%
+ 157  UCR737           70.46%    passed     55.60%
+ 158  UCR739           70.35%    passed     85.57%
+ 159  UCR740           57.00%    passed     13.24%
+ 160  UCR749           72.37%    passed      9.95%
+ 161  UCR750           72.23%    passed     81.36%
+ 162  UCROK_1429       64.13%    passed     97.34%
+ 163  WAC_13153        66.76%    passed     40.17%
+ 164  FK-284           78.35%    passed     53.32%
+WARNING: 164 sequences contain more than 50% gaps/ambiguity
+****  TOTAL            64.88%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: CBS116355 is identical to CBS115812 but kept for subsequent analysis
+NOTE: FK-891 is identical to FK-879 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00164104 secs using 1356% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.074 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+slurmstepd-i49: error: *** JOB 1752626 ON i49 CANCELLED AT 2024-02-16T11:48:38 ***
